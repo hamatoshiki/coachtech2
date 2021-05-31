@@ -4,7 +4,7 @@ array.filter(function (x,i,self) {
 });
 console.log(b); //[ 2,4,7,5,3,8]
 
-function isLeapYear(year){
+function isLeapYear(year) {
   if( (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
     return true;
   }
