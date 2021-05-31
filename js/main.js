@@ -1,4 +1,4 @@
-
-const price = 1800;
-const result = (price<1000) ? "安い" : (price>2000) ? "高い" : "丁度良いい";
-console.log(result);
+const array = [2, 4, 7, 5, 4, 3, 8];
+const result = array.filyer(function (item) {
+  return item.indexof(4) ===4;
+});
