@@ -42,3 +42,17 @@
   text-align: center;
   background-image:url(../img/red.jpg);
 }
+.box1{
+  box-sizing: 100%;
+  background-color: #000;
+}
+.h21{
+  color: white;
+}
+.text1{
+  color: white;
+}
+.h3{
+  text-align: center;
+  color: #000;
+}
