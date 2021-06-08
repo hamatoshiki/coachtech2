@@ -56,3 +56,60 @@
   text-align: center;
   color: #000;
 }
+.btn {
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #cd0224;
+    color: #fff;
+}
+.top-news{
+  background-color: #222;
+}
+.ptb-m{
+  padding: 80px 0;
+}
+.top-company-list{
+display: flex;
+align-items: center;
+color: #fff;
+font-size: 24px;
+font-weight: bold;
+padding-top: 0;
+}
+.ptb-m{
+  padding: 80px 0;
+}
+.top-company-item-link{
+  display: inline-block;
+  width: 100%;
+  line-height: 10;
+  text-align: center;
+}
+.top-company-link{
+  background-color: #cd0224;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+a{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+.top-company-item{
+  width: 50%;
+}
+.bottom-contact{
+  background-color: #f5f6f9;
+  text-align: center;
+}
+.ptb-m{
+  padding: 80px 0;
+}
