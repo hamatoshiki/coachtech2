@@ -1,127 +1,52 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    padding: 0 30px;
-    background-color: #fff;
-    position: sticky;
-    left: 0;
-    top: 0;
-    z-index: 1;
+*{
+  box-sizing: border-box;
 }
-.menu {
-  display: inline-block;
-  width: 36px;
-  height: 32px;
-  cursor: pointer;
-  position: relative;
-  left: 20px;
-  top: 20px;
-  float: right;
+head{
+  display: none;
 }
-.menu__line--top,
-.menu__line--middle,
-.menu__line--bottom {
-  display: inline-block;
-  width: 100%;
-  height: 4px;
-  background-color: #000;
-  position: absolute;
-  transition: 0.5s;
-}
-.menu__line--top {
-  top: 0;
-}
-.menu__line--middle {
-  top: 14px;
-}
-.menu__line--bottom {
-  bottom: 0;
-}
-.menu.open span:nth-of-type(1) {
-  top: 14px;
-  transform: rotate(45deg);
-}
-.menu.open span:nth-of-type(2) {
-  opacity: 0;
-}
-.menu.open span:nth-of-type(3) {
-  top: 14px;
-  transform: rotate(-45deg);
-}
-.h1{
-  text-align: center;
-  background-image:url(../img/red.jpg);
-}
-.box1{
-  box-sizing: 100%;
-  background-color: #000;
-}
-.h21{
-  color: white;
-}
-.text1{
-  color: white;
-}
-.h3{
-  text-align: center;
-  color: #000;
-}
-.btn {
-    display: block;
-    width: 300px;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-    background-color: #cd0224;
-    color: #fff;
-}
-.top-news{
-  background-color: #222;
-}
-.ptb-m{
-  padding: 80px 0;
-}
-.top-company-list{
-display: flex;
-align-items: center;
-color: #fff;
-font-size: 24px;
-font-weight: bold;
-padding-top: 0;
-}
-.ptb-m{
-  padding: 80px 0;
-}
-.top-company-item-link{
-  display: inline-block;
-  width: 100%;
-  line-height: 10;
-  text-align: center;
-}
-.top-company-link{
-  background-color: #cd0224;
+.header-ttl{
+  font-size: 24px;
+  width: 80px;
 }
 a{
   text-decoration: none;
   color: inherit;
   transition: 0.3s;
 }
-a{
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+.header-nav-list{
+  display: none;
+  font-weight: bold;
 }
-.top-company-item{
-  width: 50%;
+.header-nav-item{
+  margin-right: 30px;
 }
-.bottom-contact{
-  background-color: #f5f6f9;
+.top-mv{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/img/common/mv.png) center/cover;
+  color: white;
+}
+.top-mv-main-copy{
+  font-weight: bold;
+  font-size: 50px;
   text-align: center;
+}
+.top-mv-sub-copy{
+  font-weight: 18px;
+  text-align: center;
+}
+.warp{
+  width: 85%;
 }
 .ptb-m{
   padding: 80px 0;
+}
+.top-feature{
+  color: white;
+  background-color: black;
+}
+.top-feature-txt{
+  margin-top: 20px;
 }
