@@ -1,0 +1,22 @@
+.top-mv{
+  height: 80hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/img/mv.png) center/cover;
+  color: white;
+}
+.top-mv-main-copy {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.top-mv-sub-copy {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.top-feature{
+  color: white;
+  background-color:#222 ;
+}
