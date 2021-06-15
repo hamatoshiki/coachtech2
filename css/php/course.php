@@ -1,14 +1,3 @@
 <?php
-echo 'Hello world';
-
-$a = 15;
-$b = 3;
-$c = 10;
-$d = 5;
-
-$a = $b;
-$c += $d;
-
-print $a;
-print "<br />";
-print $c;
+$company = htmlspecialchars($_POST['company'], ENT_QUOTES);
+print "会社名は" . $company . "ですね";
